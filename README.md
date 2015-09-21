@@ -11,5 +11,6 @@ This macro is designed to resolve duplicate cases in a data set. It asks you to 
 ## Example
 **resolveDuplicates(keyList = ["LastName", "FirstName"],
 primary = "*LAST")**
-* This would consolidate all rows in the data set that had the same lastname and firstname, so that there was only one row in the final data set for each common pair of names. The macro would identify the last row for each last name/first name combination and use that as the primary row. 
+* This would consolidate all rows in the data set that had the same lastname and firstname, so that there was only one row in the final data set for each common pair of names. 
+* The macro would identify the last row for each last name/first name combination and use that as the primary row. 
 
